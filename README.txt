@@ -1,25 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>AllWayze Elevate</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0; padding: 0;
+      background: #f4f4f4;
+      color: #222;
+      line-height: 1.6;
+    }
+    header {
+      background: #1e90ff;
+      color: white;
+      padding: 20px 10%;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+      letter-spacing: 2px;
+    }
+    nav {
+      background: #333;
+      display: flex;
+      justify-content: center;
+    }
+    nav a {
+      color: white;
+      padding: 15px 20px;
+      text-decoration: none;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      transition: background 0.3s ease;
+    }
+    nav a:hover {
+      background: #1e90ff;
+    }
+    .container {
+      max-width: 1000px;
+      margin: 40px auto;
+      padding: 0 20px;
+      background: white;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      border-radius: 8px;
+    }
+    h2 {
+      color: #1e90ff;
+      margin-top: 0;
+    }
+    section {
+      margin-bottom: 40px;
+    }
+    ul {
+      list-style: disc inside;
+      margin-left: 20px;
+    }
+    footer {
+      background: #333;
+      color: white;
+      text-align: center;
+      padding: 15px 10%;
+      font-size: 0.9rem;
+    }
+    .contact-info p {
+      margin: 6px 0;
+    }
+    a.contact-link {
+      color: #1e90ff;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    a.contact-link:hover {
+      text-decoration: underline;
+    }
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 1.8rem;
+      }
+      nav {
+        flex-direction: column;
+      }
+      nav a {
+        padding: 10px;
+      }
+      .container {
+        margin: 20px 10px;
+        padding: 15px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>AllWayze Elevate</h1>
+    <p>Life Skills for the Streets and Beyond</p>
+  </header>
 
-AllWayze Elevate Website
-------------------------
+  <nav>
+    <a href="#about">About</a>
+    <a href="#program">Program</a>
+    <a href="#goals">Goals</a>
+    <a href="#contact">Contact</a>
+  </nav>
 
-Files included:
-- index.html : Main website homepage
+  <div class="container">
+    <section id="about">
+      <h2>About Us</h2>
+      <p>
+        Founded by Antonio Willis Jr. in Louisville, Kentucky, AllWayze Elevate is a community-based program dedicated to teaching youth the life skills they need to survive and thrive — the ones school never taught them. We specialize in mentoring boys and young men aged 14-24 through hands-on workshops and personal development.
+      </p>
+    </section>
 
-How to Upload:
-1. You can upload index.html to any static web hosting service:
-   - GitHub Pages (free with a GitHub account)
-   - Netlify (free tier available)
-   - Vercel (free tier available)
-   - Any traditional web host or your own server
+    <section id="program">
+      <h2>Our Program</h2>
+      <p>AllWayze Elevate focuses on real-world life skills including:</p>
+      <ul>
+        <li>Managing emotions and expressing feelings without violence</li>
+        <li>Building and protecting credit</li>
+        <li>Opening a business or LLC</li>
+        <li>Effective communication and respectful listening</li>
+        <li>Building healthy relationships and setting boundaries</li>
+        <li>Resisting peer pressure and avoiding toxic cycles</li>
+      </ul>
+    </section>
 
-2. For GitHub Pages:
-   - Create a GitHub repo, upload index.html to the root.
-   - Go to repo settings > Pages > Set source to main branch / root folder.
-   - Your site will be live at https://yourusername.github.io/reponame/
+    <section id="goals">
+      <h2>Our 12-Month Goals</h2>
+      <ul>
+        <li>Reach 100+ youth through events and workshops</li>
+        <li>Graduate 30–50 youth from full 6-week programs</li>
+        <li>Match 25+ youth with mentors</li>
+        <li>Help launch 10+ youth businesses or job placements</li>
+        <li>Partner with 5+ schools or local organizations</li>
+      </ul>
+    </section>
 
-3. For Netlify or Vercel:
-   - Create an account.
-   - Drag & drop index.html in the site deploy area.
-   - Follow instructions for domain setup if desired.
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <p class="contact-info">
+        <strong>Antonio Willis Jr.</strong><br />
+        Email: <a class="contact-link" href="mailto:info@allwayzeacademy.com">info@allwayzeacademy.com</a><br />
+        Phone: <a class="contact-link" href="tel:+13174983923">317-498-3923</a><br />
+        Instagram: <a class="contact-link" href="https://instagram.com/AllWayzeElevate" target="_blank">@AllWayzeElevate</a>
+      </p>
+    </section>
+  </div>
 
-If you need help with deployment, just ask!
+  <footer>
+    &copy; 2025 AllWayze Elevate. Real Eyes. Realize. Real Lies.
+  </footer>
+</body>
+</html>
